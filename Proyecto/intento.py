@@ -58,9 +58,16 @@ print ("........................................................................
 print ("................................................................................")
 
 # Definimos la ecuación de la trayectoria
+x=0
+weas = []
 def f(x):
-    return(a*x-b*x**2)
-x=np.linspace(0,xmax,500)
+    weas[x] = a*x-b*x**2
+    return f(x+1)
+#x=np.linspace(0,xmax)
+
+
+
+'''
 #creamos la figura
 plt.figure("FISICA APLICADA",figsize=(10,8),dpi=80,facecolor="y",edgecolor="c")   
 #plt.axes(axisbg="orange")
@@ -93,7 +100,7 @@ plt.plot(x, f(x), "red", linewidth = 2, label = (str(β)+"º"))
 # añadimos la leyenda
 plt.legend(loc = 4,fontsize=10)                                                         
 #anotaciones en el gráfico
-'''plt.annotate('Altura Máxima',
+plt.annotate('Altura Máxima',
 xy = (xmax/2, ymax),
 xycoords = 'data',
 xytext = (-70, -50),
@@ -101,9 +108,9 @@ textcoords = 'offset points',
 arrowprops = dict(arrowstyle = "->", connectionstyle = "arc, angleA = 0,armA = 30,rad = 50"),
 # dibujar tabla dentro del gráfico
 valores = [[format(np.max(xmax),".2f"),format(np.min(ymax),".2f")]],
-etiquetas_col = ["xmax (m)", "ymax (m)"])'''
+etiquetas_col = ["xmax (m)", "ymax (m)"])
 #plt.table(cellText=valores, colLabels = etiquetas_col, colWidths = [0.15]*len(f(x)), loc='upper right')
 # guarda la gráfica con 300dpi (puntos por pulgada)en python34-ejemplos curso python
 #plt.savefig("figura_Lanzamiento Proyectiles_1.pdf", dpi = 300)            
 # mostramos en pantalla la gráfica
-plt.show()
+plt.show()'''
