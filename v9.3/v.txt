@@ -1,0 +1,8 @@
+En esta version esta todo implementado
+
+Balas
+vida
+contador de balas
+
+
+queda implementar: Hoyos 
