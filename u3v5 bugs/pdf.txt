@@ -1,0 +1,89 @@
+Proyecto de Programación Unidad II
+Aplicación de cinemática de proyectiles
+(Batalla de Tanques)
+1. Objetivo
+Diseñar e implementar un software que permita “aplicar” de manera interactiva la cinemática de 
+proyectiles a través de un juego.
+
+2. Requisitos Indispensables
+Los requisitos indispensables son intransables, lo que significa que se debe cumplir con ellos al 
+menos de forma parcial (50% o más) para aprobar la unidad. No cumplir con al menos uno de ellos 
+es causal de reprobación de la unidad correspondiente, y potencialmente del curso (ver sección de 
+Observaciones).
+Los requisitos indispensables cumplidos aportan 1.0 puntos para elrequerimiento 1 y 1.5 puntos
+para el resto de los requerimientos. La nota final de la unidad se calcula contabilizando el 
+puntaje total alcanzado con los requisitos indispensables, y en caso de cumplirse todos, puede añadirse 
+el puntaje de los requisitos deseables usando el esquema descrito en la sección correspondiente.
+
+1. (1.0 puntos) La aplicación debe cumplir con todos los requisitos indispensables y 
+deseables de la Unidad 2 (el diseño debe ser actualizado constantemente). Además se aclara que
+el daño en el terreno debe ser visible como supresión/eliminación de este y que debe afectar los
+tanques que esténen su superficie (re-acomodarlos si desaparece el terreno donde estaban 
+posados inicialmente). También, deberían implementar daño secundario desde la caida de un 
+tanque desde altura o si está a dentro el rango de un explosion de bala. Finalmente, se debe 
+cumplir con el estilo de programación estándar. ----------------------------------------------------------------
+
+2. (1.5 puntos) La aplicación debe permitir configurar el juego. La configuración se debe realizar 
+al inicio mediante un menú de opciones que el usuario puede modificar. Las opciones son: 
+Numero y tipo de jugadores, numero de proyectiles de cada tipo, tamaño de pantalla, y afectos 
+del entorno.
+Por “defecto” el número de jugadores es 2, el tamaño del mapa es 800 x 800 y el número de 
+municiones para cada arma es :Proyectil 105mm (50 de daño, 10unidades disponibles), 
+Proyectil perforante (40 de daño, 10 unidades disponibles ), Proyectil de 60mm (30 de daño, 
+10unidades disponibles). 
+Por otro lado, la “máxima” configuración de número de jugadores es 6 (con suficiente distancia 
+entre ellos), el tamaño del mapa es 1600 x 1600 y el número de municiones para cada arma 
+es :Proyectil 105mm (50 de daño, 30 unidades disponibles), Proyectil perforante (40 de daño, 
+100 unidades disponibles ), Proyectil de 60mm (30 de daño, 30 unidades disponibles). 
+Finalmente, los valores de la configuración del juego pueden variar entre los valores por 
+“defecto” y “máxima”. ----------------------------------------------------------------
+
+3. (1.5 puntos) 
+- La aplicación debe se randomiza el orden de los turnos de los jugadores, asegurando que todos se tirar una vez cada turno. 
+
+- El juego deberá contar el numero de tanques oponentes destruidos por cada jugador. 
+
+- El juego termina cuando solo existe un jugador vivo o todos los jugadores vivos quedan sin balas. 
+
+- El ganador del juego es el jugador que ha destruido el numero mas grande de oponentes. Si todos han destruido el mismo numero de oponentes, el juego termina en empate.
+
+4. (1.5 puntos) La aplicación debe incluir la opción de jugar contra una inteligencia artificial (IA).
+En este caso, el menú inicial debe incluir la opción de jugar contra otro jugador o jugar contra la
+IA. La implementación de la inteligencia artificial es de libre lógica que no necesariamente 
+debe ser precisa y ganadora. Por ejemplo, se puede aplicar una estrategia de IA a través de 
+lanzamientos aleatorios o en base a lanzamiento de imitación del jugador humano.
+
+5. (1.5 puntos) La aplicación debe permitir la activación del modo “Afectos del Entorno” al 
+momento de configurar el juego. Dicho modo incluye el submodo “gravedad” que considera la 
+implementación de cambio de gravedad para dar efecto de mayor altura o menos altura del 
+proyectil, y el submodo “clima” que considera la activación del viento que varía aleatoriamente 
+por turno (1 a 10m/s Izquierdo/Derecho) para dar el efecto de lanzamiento parabólico.
+
+4. Fechas Importantes
+Fecha de Inicio: 22/10/2021
+Fecha de Término: 10/12/2021
+Extensión: 17/12/2021
+Revisiones: En horario de clase (orden aleatorio).
+
+5. Observaciones
+Ojo, la nota obtenida con los requisitos indispensables y deseables no representa la nota final de la 
+unidad, sólo la nota de proyecto, que es compartida por todos los integrantes. Además, los docentes del 
+curso usarán una rúbrica para determinar la nota individual de cada integrante, basado en su 
+participación, la presentación, su conocimiento de la aplicación, y el nivel y calidad de la codificación.
+El enunciado del proyecto (v2.0) es preliminar, y está sujeto a cambios menores. En el transcurso de las
+siguientes semanas será especificado formalmente, incluyendo la rúbrica, y posibles modificaciones a 
+los requisitos indispensables y opcionales. 
+Los proyectos de las Unidades I, II y III son recuperables, en la forma de tiempo adicional (hasta una 
+semana). Los alumnos que aprueben una recuperación pueden optar como máximo a un 4.0. Aquellos 
+que reprueben una recuperación se quedarán con la nota correspondiente.
+La Unidad III es exigible, por lo que reprobar el proyecto (y la recuperación)
+correspondiente implica reprobar el curso. ¡No se confíe
+
+
+
+
+
+
+
+
+daño por caida 
