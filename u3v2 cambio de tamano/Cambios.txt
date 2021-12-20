@@ -1,0 +1,64 @@
+CAMBIO Y COMENTARIOS
+
+MAPA 04-11-2021/23:00:
+
+##############
+POR HACER: 
+Comentar clases Terreno, MovP, Tanques,Posicion
+Mejorar textos en pantalla
+
+Validaciones de las balas
+Daño por caída
+Daño rango de explosión
+
+Agregar hasta 6 jugadores
+Cantidad de proyectiles
+Tamaño pantalla
+
+
+Turnos random
+Contador para ganador/empate
+
+
+"LISTO": 
+Optimizar la importación de clases Creo haber dejado todo optimizado, deje en todos lados la clase variables con * 
+para que se llamara todo desde ahi (llamada a pygame)
+
+Cambiar nombre variables Cambie varios arreglos separados (como los 3 distintos pa las balas,
+ahora es un arreglo para las 6 balas (3A y 3R), hice lo mismo con la vida, las pos de x e y de los tankes), falta
+cambiar esas variables x e y en los codigos del conan.
+
+Re-redactar las instrucciones Leve cambio, aún hay que mejorarlo
+
+Agregar IA (hasta 6) pseudocodigo, lo hice lo más general posible
+IA simula un jugador (no necesariamente ganador) lanzamientos aleatorios
+Extra: validar tanques extremos, lanzamientos distintos
+
+Efectos del entorno Plantee la idea de como podría ser en mov parabolico, es solo una idea y
+ni siquiera se si funciona xd
+Agregar gravedad 
+Agregar viento (1 a 10m/s izquierda/derecha) 
+
+
+python Menu.py
+
+
+
+
+
+
+
+
+
+
+
+
+1. Arreglar gana muriendo el otro
+2. Modificar colisiones = Mejorar colisiones con el terreno + disparos entre tanques 
+3. Arreglar boton de Nueva Partida 
+4. Redimensionar pantalla, refiriendose al menu de opciones y HUD
+5. mejorar / arreglar el reinicio de variables
+6. UML 
+7. IA 
+8. Opciones --> linea 202 --> de 30 a 100
+9. 
